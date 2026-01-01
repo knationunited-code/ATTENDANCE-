@@ -8,7 +8,6 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="AttendFlow">
 
     <link rel="icon" type="image/png" href="https://img.icons8.com/fluency/240/checked-user-male.png">
     <link rel="apple-touch-icon" href="https://img.icons8.com/fluency/240/checked-user-male.png">
@@ -16,24 +15,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
-        body { 
-            font-family: 'Plus Jakarta Sans', sans-serif; 
-            -webkit-tap-highlight-color: transparent; 
-            transition: background 0.3s;
-            /* Prevents pull-to-refresh for a native feel */
-            overscroll-behavior-y: contain; 
-        }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; -webkit-tap-highlight-color: transparent; overscroll-behavior-y: contain; }
         .glass-card { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.3); }
         @media (prefers-color-scheme: dark) {
             body { background-color: #0f172a; color: white; }
             .glass-card { background: rgba(30, 41, 59, 0.7); border: 1px solid rgba(255, 255, 255, 0.1); }
         }
-        /* Splash effect for buttons */
-        .bubbly { transition: transform 0.1s; }
-        .bubbly:active { transform: scale(0.95); }
+        .bubbly:active { transform: scale(0.95); transition: 0.1s; }
     </style>
 </head>
-
     <link rel="apple-touch-icon" href="https://img.icons8.com/fluency/240/education.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
